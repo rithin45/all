@@ -4,6 +4,7 @@ import{Buffer} from 'buffer';
 
 import { Button, Card, CardActionArea, CardContent, CardMedia, Typography } from '@mui/material';
 import { background } from '@chakra-ui/react';
+import Navsidebar from './Navbar/Navsidebar';
 
 const Addcrt = () => {
   const [cart, setCart] = useState([]);
@@ -26,6 +27,7 @@ const Addcrt = () => {
 
   return (
     <div>
+      <Navsidebar/>
       <Typography variant='h4' gutterBottom>
         Cart
       </Typography>

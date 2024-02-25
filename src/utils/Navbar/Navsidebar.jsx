@@ -15,6 +15,7 @@ import Login from '../../components/Login/Login';
 import { Link, Navigate } from 'react-router-dom';
 import LockOpenIcon from '@mui/icons-material/LockOpen';
 import { LocalGroceryStore } from '@mui/icons-material';
+// import "./Style.css"
 
 
 
@@ -136,6 +137,7 @@ useEffect(() => {
         open={drawerOpen}
         onClose={toggleDrawer(false)}
       >
+        <div className="sidebar">
         <List>
           {/* <ListItem as={Link} to="/nav">
             <ListItemIcon > 
@@ -143,14 +145,17 @@ useEffect(() => {
             </ListItemIcon>
             <ListItemText primary="Admin" />
           </ListItem> */}
-          <Divider />
+                <div className="sidebar-item">
+
           <ListItem as={Link} to="/sgn">
             <ListItemIcon>
               <LockOpenIcon/>
             </ListItemIcon>
             <ListItemText primary="Signup" />
           </ListItem>
+          </div>
           <Divider />
+          <div className="sidebar-item">
           <ListItem button>
             <ListItemText primary="Category" />
           </ListItem>
@@ -166,32 +171,46 @@ useEffect(() => {
             </ListItemIcon>
             <ListItemText primary="Fruits" />
           </ListItem>
+          </div>
           <Divider />
+          <div className="sidebar-item">
           <ListItem as={Link} to="/">
             <ListItemIcon>
               <HomeIcon />
             </ListItemIcon>
             <ListItemText primary="Home" />
           </ListItem>
+          </div>
+          <Divider />
+          <div className="sidebar-item">
+
           <ListItem as={Link} to="/Addc">
             <ListItemIcon>
               <ShoppingCartIcon />
             </ListItemIcon>
             <ListItemText primary="Shopping Cart" />
           </ListItem >
-          <ListItem button>
+          </div>
+          <Divider />
+          <div className="sidebar-item">
+          <ListItem as={Link} to="/abt">
             <ListItemIcon>
               <InfoIcon />
             </ListItemIcon>
             <ListItemText primary="About" />
           </ListItem>
+          </div>
+          <Divider />
+          <div className="sidebar-item">
           <ListItem button>
             <ListItemIcon>
               <ContactSupportIcon />
             </ListItemIcon>
             <ListItemText primary="Contact" />
           </ListItem>
+          </div>
         </List>
+        </div>
       </Drawer>
       
     </div>

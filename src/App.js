@@ -18,6 +18,7 @@ import Homeu from './utils/Homeu';
 import Addcrt from './utils/Addcrt';
 import SignupPage from './utils/signup/Signup';
 import Signup from './utils/signup/Signup';
+import About from './utils/Navbar/About';
 
   function App() {
     
@@ -44,6 +45,7 @@ import Signup from './utils/signup/Signup';
         <Route path={'/Addp'} element={<Addpro/>}></Route>
         <Route path={'/Addc'} element={<Addcrt/>}></Route>
         <Route path={'/sgn'} element={<Signup/>}></Route>
+        <Route path={'/abt'} element={<About/>}></Route>
 
         <Route path={'/viewdetails'}element={<Categorydetails method='get'/>}></Route>
         <Route path={'/sview'}element={<Subcategorydetails method='get'/>}></Route>

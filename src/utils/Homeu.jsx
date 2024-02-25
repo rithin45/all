@@ -3,6 +3,16 @@ import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
 import './Navbar/Style.css'
 import Navsidebar from './Navbar/Navsidebar';
+import About from './Navbar/About';
+import BannerBackground from "./Assets/home-banner-background.png";
+import BannerImage from "./Assets/home-banner-image.png";
+import { Navigate } from 'react-router-dom';
+import { FiArrowRight } from "react-icons/fi";
+import Testimonial from './Navbar/Testimonial';
+import Contact from './Navbar/Contact';
+import Work from './Navbar/Work';
+import HomePage from './Navbar/HomePage';
+
 
 // const contentStyle = {
 //   width: '80%',
@@ -106,7 +116,14 @@ const Homeu = () => (
     </SplideSlide>
     
   </Splide>
+ 
+  
+          
+        <HomePage/>
+
+
   </div>
+  
 );
 
 export default Homeu;

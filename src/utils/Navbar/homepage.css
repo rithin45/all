@@ -1,0 +1,64 @@
+/* Example styles for HomePage component */
+
+.home-container {
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .home-banner-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .home-bannerImage-container img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+  }
+  
+  .home-text-section {
+    flex: 1;
+    padding: 0 2rem;
+  }
+  
+  .primary-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .primary-text {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 2rem;
+  }
+  
+  .secondary-button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .secondary-button:hover {
+    background-color: #45a049;
+  }
+  
+  .home-image-section img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+  }
+  
+  /* Add styles for other components as needed */
+  
