@@ -42,7 +42,6 @@ const HomePage = () => {
         <Abov/>
         <Work/>
         <Testimonial/>
-        <Contact/>
       </div>
     </>
   );

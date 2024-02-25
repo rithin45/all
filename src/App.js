@@ -19,6 +19,7 @@ import Addcrt from './utils/Addcrt';
 import SignupPage from './utils/signup/Signup';
 import Signup from './utils/signup/Signup';
 import About from './utils/Navbar/About';
+import Contact from './utils/Navbar/Contact';
 
   function App() {
     
@@ -46,6 +47,8 @@ import About from './utils/Navbar/About';
         <Route path={'/Addc'} element={<Addcrt/>}></Route>
         <Route path={'/sgn'} element={<Signup/>}></Route>
         <Route path={'/abt'} element={<About/>}></Route>
+        <Route path={'/cont'} element={<Contact/>}></Route>
+
 
         <Route path={'/viewdetails'}element={<Categorydetails method='get'/>}></Route>
         <Route path={'/sview'}element={<Subcategorydetails method='get'/>}></Route>
