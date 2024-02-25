@@ -7,6 +7,7 @@ import "./homepage.css"
 import Work from "./Work";
 import Testimonial from "./Testimonial";
 import Contact from "./Contact";
+import Abov from "./Abov";
 
 const HomePage = () => {
   const navigate = useNavigate();
@@ -38,6 +39,7 @@ const HomePage = () => {
             <img src={BannerImage} alt="" />
           </div>
         </div>
+        <Abov/>
         <Work/>
         <Testimonial/>
         <Contact/>

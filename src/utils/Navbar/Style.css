@@ -49,4 +49,76 @@
   .sidebar-item {
     margin-bottom: 10px; 
   } */
+  /* Example styles for About component */
+
+.about-section-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-background-image-container img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+  }
+  
+  .about-section-image-container img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+  }
+  
+  .about-section-text-container {
+    flex: 1;
+    padding: 0 2rem;
+  }
+  
+  .primary-subheading {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .primary-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .primary-text {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 1rem;
+  }
+  
+  .about-buttons-container {
+    display: flex;
+  }
+  
+  .secondary-button,
+  .watch-video-button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .secondary-button:hover,
+  .watch-video-button:hover {
+    background-color: #45a049;
+  }
+  
+  .watch-video-button {
+    margin-left: 1rem;
+  }
   
